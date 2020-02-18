@@ -1,0 +1,7 @@
+﻿<Properties StartupConfiguration="{73605A03-1B40-42D6-B673-6214A7B3B408}|Default">
+  <MonoDevelop.Ide.ItemProperties.Chatta.UITests FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Chatta.Android FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Chatta.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Chatta FirstBuild="True" />
+</Properties>
