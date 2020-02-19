@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj": {}
+    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj": {}
   },
   "projects": {
-    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj": {
+    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj",
+        "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj",
         "projectName": "Chatta",
-        "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj",
+        "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj",
         "packagesPath": "/Users/developer/.nuget/packages/",
-        "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/obj/",
+        "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -39,11 +39,23 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MvvmLight": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
+            "MvvmLightLibs": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -51,7 +63,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.0.0.709238, )"
             }
           },
           "imports": [

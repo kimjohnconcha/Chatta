@@ -157,11 +157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.UITests/Chatta.UITests.csproj",
+      "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/Chatta.UITests.csproj",
       "projectName": "Chatta.UITests",
-      "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.UITests/Chatta.UITests.csproj",
+      "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/Chatta.UITests.csproj",
       "packagesPath": "/Users/developer/.nuget/packages/",
-      "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.UITests/obj/",
+      "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

@@ -1,7 +1,38 @@
-﻿<Properties StartupConfiguration="{73605A03-1B40-42D6-B673-6214A7B3B408}|Default">
-  <MonoDevelop.Ide.ItemProperties.Chatta.UITests FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Chatta.Android FirstBuild="True" />
+﻿<Properties StartupConfiguration="{F9A7BA50-4661-495B-9BB9-E1422045E181}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Chatta/ViewMdel/DetailsViewModel.cs">
+    <Files>
+      <File FileName="Chatta/Pages/MainPage.xaml" Line="10" Column="1" />
+      <File FileName="Chatta/Pages/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Chatta/Pages/DetailsPage.xaml" Line="23" Column="1" />
+      <File FileName="Chatta/Pages/DetailsPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="Chatta/ViewMdel/MainViewModel.cs" Line="33" Column="46" />
+      <File FileName="Chatta/ViewMdel/ViewModelLocator.cs" Line="1" Column="1" />
+      <File FileName="Chatta/ViewMdel/DetailsViewModel.cs" Line="83" Column="57" />
+      <File FileName="Chatta/Model/Person.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Chatta" expanded="True">
+            <Node name="Chatta" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ViewMdel" selected="True" />
+            </Node>
+            <Node name="Chatta.Android" expanded="True">
+              <Node name="ViewModel" expanded="True" />
+            </Node>
+            <Node name="Chatta.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Chatta.Android PreferredExecutionTarget="Android.nexus_5_pie_9_0_api_28" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Chatta.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Chatta FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Chatta.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B85FBD2F-5999-498A-AFCD-0CF204E5D3B3" />
 </Properties>

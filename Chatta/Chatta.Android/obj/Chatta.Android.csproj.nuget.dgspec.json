@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.Android/Chatta.Android.csproj": {}
+    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.Android/Chatta.Android.csproj": {}
   },
   "projects": {
-    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.Android/Chatta.Android.csproj": {
+    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.Android/Chatta.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.Android/Chatta.Android.csproj",
+        "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.Android/Chatta.Android.csproj",
         "projectName": "Chatta.Android",
-        "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.Android/Chatta.Android.csproj",
+        "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.Android/Chatta.Android.csproj",
         "packagesPath": "/Users/developer/.nuget/packages/",
-        "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta.Android/obj/",
+        "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,36 +26,25 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj": {
-                "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj"
+              "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj": {
+                "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj"
               }
             }
           }
         }
       },
       "frameworks": {
-        "monoandroid90": {
-          "dependencies": {
-            "Xamarin.Essentials": {
-              "target": "Package",
-              "version": "[1.3.1, )"
-            },
-            "Xamarin.Forms": {
-              "target": "Package",
-              "version": "[4.3.0.908675, )"
-            }
-          }
-        }
+        "monoandroid90": {}
       }
     },
-    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj": {
+    "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj",
+        "projectUniqueName": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj",
         "projectName": "Chatta",
-        "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.csproj",
+        "projectPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/Chatta.csproj",
         "packagesPath": "/Users/developer/.nuget/packages/",
-        "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/obj/",
+        "outputPath": "/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -95,7 +84,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[3.6.0.709228, )"
             }
           },
           "imports": [
