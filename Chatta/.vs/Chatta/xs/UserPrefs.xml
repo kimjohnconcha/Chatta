@@ -2,13 +2,13 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Chatta/ViewMdel/DetailsViewModel.cs">
     <Files>
       <File FileName="Chatta/Pages/MainPage.xaml" Line="10" Column="1" />
-      <File FileName="Chatta/Pages/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Chatta/Pages/DetailsPage.xaml" Line="23" Column="1" />
-      <File FileName="Chatta/Pages/DetailsPage.xaml.cs" Line="16" Column="1" />
-      <File FileName="Chatta/ViewMdel/MainViewModel.cs" Line="33" Column="46" />
-      <File FileName="Chatta/ViewMdel/ViewModelLocator.cs" Line="1" Column="1" />
-      <File FileName="Chatta/ViewMdel/DetailsViewModel.cs" Line="83" Column="57" />
-      <File FileName="Chatta/Model/Person.cs" Line="13" Column="1" />
+      <File FileName="Chatta/Pages/MainPage.xaml.cs" />
+      <File FileName="Chatta/Pages/DetailsPage.xaml" />
+      <File FileName="Chatta/Pages/DetailsPage.xaml.cs" />
+      <File FileName="Chatta/ViewMdel/MainViewModel.cs" />
+      <File FileName="Chatta/ViewMdel/ViewModelLocator.cs" />
+      <File FileName="Chatta/ViewMdel/DetailsViewModel.cs" Line="73" Column="87" />
+      <File FileName="Chatta/Model/Person.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,9 @@
           <Node name="Chatta" expanded="True">
             <Node name="Chatta" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="ViewMdel" selected="True" />
+              <Node name="ViewMdel" expanded="True">
+                <Node name="DetailsViewModel.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Chatta.Android" expanded="True">
               <Node name="ViewModel" expanded="True" />
