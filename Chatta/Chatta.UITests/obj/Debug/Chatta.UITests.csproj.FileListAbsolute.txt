@@ -1,9 +1,0 @@
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/bin/Debug/Chatta.UITests.dll
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/bin/Debug/Chatta.UITests.pdb
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/bin/Debug/nunit.framework.dll
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/bin/Debug/nunit.framework.pdb
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/bin/Debug/Xamarin.UITest.dll
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/obj/Debug/Chatta.UITests.csprojAssemblyReference.cache
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/obj/Debug/Chatta.UITests.csproj.CopyComplete
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/obj/Debug/Chatta.UITests.dll
-/Users/developer/kimconchaworkingdatus/projects/xamarin/Chatta/Chatta/Chatta.UITests/obj/Debug/Chatta.UITests.pdb
