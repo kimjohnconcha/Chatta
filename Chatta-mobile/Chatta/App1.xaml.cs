@@ -1,16 +1,23 @@
 ﻿using System;
+using Chatta.Utils;
+using Chatta.ViewModel.Base;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Chatta
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class App : Application
     {
+        private static ViewModelLocator _locator;
+        public static ViewModelLocator Locator => _locator ?? (_locator = new ViewModelLocator());
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            Common.ConfigureIocContainer();
+            Common.SetMainPage();
         }
 
         protected override void OnStart()
