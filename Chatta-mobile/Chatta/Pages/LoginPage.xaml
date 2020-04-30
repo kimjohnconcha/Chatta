@@ -9,7 +9,7 @@
             <Entry Placeholder="Password"  />
 
 
-            <Button Text="Login"  />
+            <Button Text="Login" Command="{Binding LoginCommand}"  />
             <Button Text="Login with FB"  />
 
         </StackLayout>

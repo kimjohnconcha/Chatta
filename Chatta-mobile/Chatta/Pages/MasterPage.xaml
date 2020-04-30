@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="using:Chatta.Model"
+             xmlns:p="using:Chatta.Pages"
+             IconImageSource="hamburger"
+             Title="Personal Organiser"
+             x:Class="Chatta.Pages.MasterPage">
+    <StackLayout>
+        <ListView x:Name="listView" x:FieldModifier="public">
+           <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="Contacts" IconSource="contacts" TargetType="{x:Type p:ContactsPage}" />
+                    <local:MasterPageItem Title="TodoList" IconSource="todo" TargetType="{x:Type p:TodoListPage}" />
+                    <local:MasterPageItem Title="Reminders" IconSource="reminders" TargetType="{x:Type p:RemindersPage}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

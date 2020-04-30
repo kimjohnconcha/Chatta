@@ -3,6 +3,11 @@ namespace Chatta.Enums
 {
     public enum AppPages
     {
-        LoginPage
+        LoginPage,
+        MasterPage,
+        RemindersPage,
+        HomePage,
+        ContactsPage,
+        TodoListPage
     }
 }

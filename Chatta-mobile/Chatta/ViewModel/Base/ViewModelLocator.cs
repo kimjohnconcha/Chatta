@@ -1,4 +1,5 @@
 ﻿using System;
+using Chatta.Services;
 using CommonServiceLocator;
 using GalaSoft.MvvmLight.Ioc;
 

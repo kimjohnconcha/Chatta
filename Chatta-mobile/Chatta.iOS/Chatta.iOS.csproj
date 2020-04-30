@@ -112,6 +112,18 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\contacts.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\hamburger.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\reminders.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\todo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\contacts.imageset\contacts%402x.png" />
+    <ImageAsset Include="Assets.xcassets\contacts.imageset\contacts.png" />
+    <ImageAsset Include="Assets.xcassets\hamburger.imageset\hamburger.png" />
+    <ImageAsset Include="Assets.xcassets\hamburger.imageset\hamburger%402x.png" />
+    <ImageAsset Include="Assets.xcassets\reminders.imageset\reminders.png" />
+    <ImageAsset Include="Assets.xcassets\reminders.imageset\reminders%402x.png" />
+    <ImageAsset Include="Assets.xcassets\todo.imageset\todo.png" />
+    <ImageAsset Include="Assets.xcassets\todo.imageset\todo%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -143,6 +155,9 @@
     <PackageReference Include="MvvmLightLibs">
       <Version>5.4.1.1</Version>
     </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.6.292</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -150,5 +165,11 @@
       <Project>{42B6196F-BF65-4B14-AC01-9E530C17E600}</Project>
       <Name>Chatta</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\contacts.imageset\" />
+    <Folder Include="Assets.xcassets\hamburger.imageset\" />
+    <Folder Include="Assets.xcassets\reminders.imageset\" />
+    <Folder Include="Assets.xcassets\todo.imageset\" />
   </ItemGroup>
 </Project>
