@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Prism;
+using Prism.Ioc;
 using UIKit;
 
 namespace Chatta.iOS
@@ -24,9 +26,19 @@ namespace Chatta.iOS
         {
             Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            //Change LoadApplication IPlatformInitializer
+            LoadApplication(new App(new iOSInitializer()));
 
             return base.FinishedLaunching(app, options);
+        }
+    }
+
+    public class iOSInitializer : IPlatformInitializer
+    {
+        public void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+
         }
     }
 }

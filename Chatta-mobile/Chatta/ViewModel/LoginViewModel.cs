@@ -5,27 +5,22 @@ using Chatta.Pages;
 using Chatta.Services;
 using Chatta.Utils;
 using Chatta.ViewModel.Base;
-using GalaSoft.MvvmLight.Command;
+using Prism.Commands;
+using Prism.Navigation;
+using Unity;
 using Xamarin.Forms;
 
 namespace Chatta.ViewModel
 {
     public class LoginViewModel : BaseViewModel
     {
-        public LoginViewModel(IAppNavigationService navigationService)
+        public LoginViewModel(INavigationService navigationService)
         {
-            System.Diagnostics.Debug.WriteLine("Login viewmodel");
-
-            if (navigationService == null)
-            {
-                System.Diagnostics.Debug.WriteLine("nav service null");
-            }
-
-
             _navigationService = navigationService;
-            LoginCommand = new RelayCommand(async () => await Login());
+            LoginCommand = new DelegateCommand(async () => await Login());
         }
 
+        IUnityContainer container = new UnityContainer();
 
         #region Methods
 
@@ -38,7 +33,13 @@ namespace Chatta.ViewModel
 
             var a = new HomePage();
 
-            _navigationService.NavigateTo(AppPages.RemindersPage);
+            
+            var m = container.Resolve<UserService>();
+            var res = m.TestBool("mim");
+
+            System.Diagnostics.Debug.WriteLine("output: " + res.ToString());
+
+            await _navigationService.NavigateAsync("ContactsPage");
 
             //Navigation.pus
             
@@ -50,7 +51,7 @@ namespace Chatta.ViewModel
 
         #region Fields
 
-        private readonly IAppNavigationService _navigationService;
+        private readonly INavigationService _navigationService;
 
         #endregion
 
@@ -59,7 +60,7 @@ namespace Chatta.ViewModel
 
         #region Commands
 
-        public RelayCommand LoginCommand { get; }
+        public DelegateCommand LoginCommand { get; }
 
         #endregion
     }

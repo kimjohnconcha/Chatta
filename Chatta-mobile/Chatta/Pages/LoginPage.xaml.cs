@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Chatta.Services;
 using Chatta.ViewModel;
+using Unity;
 using Xamarin.Forms;
 
 namespace Chatta.Pages
@@ -10,9 +12,15 @@ namespace Chatta.Pages
         //LoginViewModel _vm;
         public LoginPage()
         {
-            BindingContext = App.Locator.Login;
-
             InitializeComponent();
+
+            //var container = ((App)Application.Current).Container;
+
+            //var a = container.Resolve();
+
+
+
+
         }
     }
 }
